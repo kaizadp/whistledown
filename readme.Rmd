@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-<img align="left" height = "300" width = "300" src="images/0-logo.png">
+<img align="left" height = "300" width = "300" src="images/0-logo.jpg">
 
 
 # whistledown  
@@ -30,7 +30,7 @@ Source images and color hex values can be found in the  [`images.md`](https://gi
 
 ### install package
 
-```{r echo = TRUE, message=FALSE,warning=FALSE}
+```{r echo = TRUE}
 # install.packages("devtools") 
 devtools::install_github("kaizadp/whistledown")
 ```
@@ -40,16 +40,25 @@ devtools::install_github("kaizadp/whistledown")
 <details>
   <summary>Palettes</summary>
   
-#### soil orders, suborders, and great groups
-```{r orders, echo = FALSE}
+```{r palettes, eval = T}
 library(whistledown)
 
-whistledown_palette(name="sharmaji",5)
-whistledown_palette(name="red",5)
-whistledown_palette(name="featherington",5)
-whistledown_palette(name="danbury",5)
+# whistledown_palette(name="sharmaji",5)
+# whistledown_palette(name="red",5)
+# whistledown_palette(name="featherington",5)
+# whistledown_palette(name="danbury",5)
 
 ```
+
+<img src="images/sharmaji.jpeg">
+
+<img src="images/danbury.jpeg">
+
+<img src="images/red.jpeg">
+
+<img src="images/yellow.jpeg">
+
+<img src="images/featherington.jpeg">
 
 
 ----

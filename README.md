@@ -1,5 +1,5 @@
 
-<img align="left" height = "300" width = "300" src="images/0-logo.png">
+<img align="left" height = "300" width = "300" src="images/0-logo.jpg">
 
 # whistledown
 
@@ -27,9 +27,15 @@ devtools::install_github("kaizadp/whistledown")
 Palettes
 </summary>
 
-#### soil orders, suborders, and great groups
+<img src="images/sharmaji.jpeg">
 
-![](readme_files/figure-gfm/orders-1.png)<!-- -->![](readme_files/figure-gfm/orders-2.png)<!-- -->![](readme_files/figure-gfm/orders-3.png)<!-- -->![](readme_files/figure-gfm/orders-4.png)<!-- -->
+<img src="images/danbury.jpeg">
+
+<img src="images/red.jpeg">
+
+<img src="images/yellow.jpeg">
+
+<img src="images/featherington.jpeg">
 
 ------------------------------------------------------------------------
 
