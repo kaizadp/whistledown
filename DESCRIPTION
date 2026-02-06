@@ -3,7 +3,7 @@ Type: Package
 Title: A Bridgerton Color Palette Package
 Version: 0.1.0
 Author: Kaizad F. Patel
-Maintainer: Kaizad F. Patel
+Maintainer: Kaizad F. Patel <kaizad.patel@pnnl.gov>
 Description: Color palettes for R inspired by the show Bridgerton
 License: MIT + file LICENSE
 Encoding: UTF-8
