@@ -1,4 +1,4 @@
-# Soils Color Palette Package
+# Bridgerton Color Palette Package
 # These are color palettes for RStudio
 # inspired by soil profiles.
 
@@ -6,7 +6,7 @@
 # ::::::::::::::::::::::::::::::::::::::::::::::
 #' Complete list of palettes
 #'
-#' Use \code{names(soil_palettes)} to view list of palette names.
+#' Use \code{names(whistledown_palettes)} to view list of palette names.
 #' Currently:  "alaquod" "durorthod"  "eutrostox" "natrudoll" "paleustalf" "podzol" "rendoll" "vitrizerand" "bangor" "pywell" "crait" "redox" "redox2" "gley"        
 #'
 #' @export
