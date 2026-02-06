@@ -11,7 +11,7 @@ An object of class \code{list} of length 4.
 whistledown_palettes
 }
 \description{
-Use \code{names(soil_palettes)} to view list of palette names.
+Use \code{names(whistledown_palettes)} to view list of palette names.
 Currently:  "alaquod" "durorthod"  "eutrostox" "natrudoll" "paleustalf" "podzol" "rendoll" "vitrizerand" "bangor" "pywell" "crait" "redox" "redox2" "gley"
 }
 \keyword{datasets}
