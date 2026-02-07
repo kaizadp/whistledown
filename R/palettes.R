@@ -18,6 +18,8 @@ whistledown_palettes <- list(
   queen = rbind(c('#F5B856', '#D34A68', '#E6C6DC', '#89C5D2', '#3F828D'),c(3,1,5,2,4)),
   sharmaji = rbind(c('#DFD3DD', '#D59AAE', '#9A3268', '#652D76', '#8EB2C4'),c(5,3,4,1,2)),
   danbury = rbind(c('#7A0016', '#D16159', '#C680B7', '#843873', '#4C032A'),c(1,4,3,2,5)),
+  simon = rbind(c('#10110C', '#9F2919', '#BA436B', '#98A1AE', '#CEC0B7'),c(5,1,4,2,3)),
+  rakes = rbind(c('#9B404D', '#9FA5B0', '#6F8FA7', '#00497A', '#16323D'),c(1,4,3,2,5)),
   featherington = rbind(c('#D8E0E9', '#7F989F', '#688844', '#E6AB47', '#D66F90'),c(5,4,3,1,2))
 )
 
