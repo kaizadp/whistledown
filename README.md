@@ -1,15 +1,11 @@
 
-<img align="left" height = "300" width = "300" src="images/0-logo.jpg">
+<img align="left" height = "300" width = "300" src="images/0-logo.png">
 
 # whistledown
 
 This package contains color palettes for RStudio, inspired by the show
 Bridgerton. Palettes are colorblind-friendly and were created using
 [Coolors](https://coolors.co).
-
-Source images and color hex values can be found in the
-[`images.md`](https://github.com/kaizadp/whistledown/blob/master/images.md)
-file in the root directory.
 
 ------------------------------------------------------------------------
 
@@ -22,24 +18,15 @@ devtools::install_github("kaizadp/whistledown")
 
 ------------------------------------------------------------------------
 
-<details>
-<summary>
-Palettes
-</summary>
+## Palettes
 
-<img src="images/sharmaji.jpeg">
-
-<img src="images/danbury.jpeg">
-
-<img src="images/red.jpeg">
-
-<img src="images/yellow.jpeg">
-
-<img src="images/featherington.jpeg">
+<img src="images/danbury.png"> <img src="images/queen.png">
+<img src="images/kathani.png"> <img src="images/penelope.png">
+<img src="images/daphne.png"> <img src="images/eloise.png">
+<img src="images/featherington.png"> <img src="images/sharmaji.png">
 
 ------------------------------------------------------------------------
 
-</details>
 <details>
 <summary>
 Examples
@@ -64,7 +51,7 @@ ggplot(data=iris, aes(x=Sepal.Width, fill=Species)) +
   xlab("Sepal Width") +  ylab("Density") + 
   ggtitle("Histogram & Density Curve of Sepal Width") + theme_bw()+
   
-  scale_fill_manual(values = whistledown_palette("red",3))
+  scale_fill_manual(values = whistledown_palette("queen",3))
 ```
 
 ![](readme_files/figure-gfm/usage2-1.png)<!-- -->
@@ -106,7 +93,7 @@ ggplot(penguins, aes(x = bill_length_mm, y = bill_depth_mm, color = bill_length_
        subtitle = "data = Palmer Penguins")+
   theme_bw()+
   
-  scale_color_gradientn(colors = rev(whistledown_palette("featherington",5))) 
+  scale_color_gradientn(colors = rev(whistledown_palette("kathani",5))) 
 ```
 
 ![](readme_files/figure-gfm/usage5-1.png)<!-- -->
@@ -120,6 +107,6 @@ Code structure was modelled after the
 [`PNWColors`](https://github.com/jakelawlor/PNWColors) and
 [`wesanderson`](https://github.com/karthik/wesanderson) packages.  
 Contribute soil palettes in the
-[issues](https://github.com/kaizadp/soilpalettes/issues/6).
+[issues](https://github.com/kaizadp/whistledown/issues/).
 
 </summary>
