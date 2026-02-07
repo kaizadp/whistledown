@@ -11,9 +11,13 @@
 #'
 #' @export
 whistledown_palettes <- list(
-  sharmaji = rbind(c('#DFD3DD', '#D59AAE', '#9A3268', '#652D76', '#8EB2C1'),c(5,4,1,2,3)),
-  red = rbind(c('#561e21', '#b3343d', '#B58B9D', '#D3C2B1', '#E4E4E4'),c(5,1,3,4,2)),
-  danbury = rbind(c('#29001B', '#952926', '#E4697E', '#C7A5DF', '#CADBE2'),c(5,3,1,2,4)),
+  eloise = rbind(c('#E2F3E6', '#C8E8C4', '#B4D39C', '#9FBDD0', '#6CA5C6'),c(5,4,1,2,3)),
+  kathani = rbind(c('#B35512', '#DC8B7F', '#CEB5E3', '#65317B', '#2A7879'),c(5,1,4,2,3)),
+  daphne = rbind(c('#B6E2D9', '#96BDD9', '#9592DD', '#C18FCC', '#E6B2DD'),c(4,3,1,5,2)),
+  penelope = rbind(c('#D75C33', '#E2A452', '#F7E7B6', '#C5D8C0', '#2C4531'),c(5,3,1,2,4)),
+  queen = rbind(c('#F5B856', '#D34A68', '#E6C6DC', '#89C5D2', '#3F828D'),c(3,1,5,2,4)),
+  sharmaji = rbind(c('#DFD3DD', '#D59AAE', '#9A3268', '#652D76', '#8EB2C4'),c(5,3,4,1,2)),
+  danbury = rbind(c('#7A0016', '#D16159', '#C680B7', '#843873', '#4C032A'),c(1,4,3,2,5)),
   featherington = rbind(c('#D8E0E9', '#7F989F', '#688844', '#E6AB47', '#D66F90'),c(5,4,3,1,2))
 )
 
