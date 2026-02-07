@@ -66,7 +66,7 @@ ggplot(penguins, aes(x = bill_length_mm, y = bill_depth_mm, color = species))+
        subtitle = "data = Palmer Penguins")+
   theme_bw()+
   
-  scale_color_manual(values = whistledown_palette("danbury", 3)) 
+  scale_color_manual(values = whistledown_palette("daphne", 3)) 
 ```
 
 ![](readme_files/figure-gfm/usage3-1.png)<!-- -->

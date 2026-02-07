@@ -17,8 +17,8 @@ knitr::opts_chunk$set(
 
 <img align="left" height = "300" width = "300" src="images/0-logo.png">
 
-
 # whistledown  
+
 
 This package contains color palettes for RStudio, inspired by the show Bridgerton.
 Palettes are colorblind-friendly and were created using [Coolors](https://coolors.co).  
@@ -91,7 +91,7 @@ ggplot(penguins, aes(x = bill_length_mm, y = bill_depth_mm, color = species))+
        subtitle = "data = Palmer Penguins")+
   theme_bw()+
   
-  scale_color_manual(values = whistledown_palette("danbury", 3)) 
+  scale_color_manual(values = whistledown_palette("daphne", 3)) 
 ```
 
 ```{r usage4, fig.height=4, fig.width=5, echo=TRUE}
