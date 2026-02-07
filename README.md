@@ -24,6 +24,7 @@ devtools::install_github("kaizadp/whistledown")
 <img src="images/kathani.png"> <img src="images/penelope.png">
 <img src="images/daphne.png"> <img src="images/eloise.png">
 <img src="images/featherington.png"> <img src="images/sharmaji.png">
+<img src="images/rakes.png"> <img src="images/simon.png">
 
 ------------------------------------------------------------------------
 
