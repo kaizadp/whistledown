@@ -1,15 +1,25 @@
 
-<img align="left" height = "300" width = "300" src="images/0-logo.png">
+<img align="left" height = "350" width = "350" src="images/0-logo.png">
+
+<br>
 
 # whistledown
 
-This package contains color palettes for RStudio, inspired by the show
-Bridgerton. Palettes are colorblind-friendly and were created using
-[Coolors](https://coolors.co).
+Dearest Reader,
+
+A most exquisite collection has entered society: an R package devoted
+entirely to the sumptious hues of our beloved Bridgerton world. Within
+it, one shall find palettes fit for the grandest ballroom plots and the
+most scandalous of statistical revelations.
+
+Pray, wield these colors boldly – for what is data visualization, if not
+another stage upon which brilliance must be displayed?
+
+<br>
 
 ------------------------------------------------------------------------
 
-### install package
+## install package
 
 ``` r
 # install.packages("devtools") 
@@ -20,18 +30,47 @@ devtools::install_github("kaizadp/whistledown")
 
 ## Palettes
 
-<img src="images/danbury.png"> <img src="images/queen.png">
-<img src="images/kathani.png"> <img src="images/penelope.png">
-<img src="images/daphne.png"> <img src="images/eloise.png">
-<img src="images/featherington.png"> <img src="images/sharmaji.png">
-<img src="images/rakes.png"> <img src="images/simon.png">
+<img src="images/danbury.png">
 
 ------------------------------------------------------------------------
 
-<details>
-<summary>
-Examples
-</summary>
+<img src="images/queen.png">
+
+------------------------------------------------------------------------
+
+<img src="images/kathani.png">
+
+------------------------------------------------------------------------
+
+<img src="images/penelope.png">
+
+------------------------------------------------------------------------
+
+<img src="images/daphne.png">
+
+------------------------------------------------------------------------
+
+<img src="images/eloise.png">
+
+------------------------------------------------------------------------
+
+<img src="images/featherington.png">
+
+------------------------------------------------------------------------
+
+<img src="images/sharmaji.png">
+
+------------------------------------------------------------------------
+
+<img src="images/rakes.png">
+
+------------------------------------------------------------------------
+
+<img src="images/simon.png">
+
+------------------------------------------------------------------------
+
+## Examples
 
 ``` r
 library(ggplot2)
@@ -98,16 +137,16 @@ ggplot(penguins, aes(x = bill_length_mm, y = bill_depth_mm, color = bill_length_
 ```
 
 ![](readme_files/figure-gfm/usage5-1.png)<!-- -->
-</details>
-<details>
-<summary>
-Acknowledgments and Contributions
-</summary>
 
-Code structure was modelled after the
-[`PNWColors`](https://github.com/jakelawlor/PNWColors) and
-[`wesanderson`](https://github.com/karthik/wesanderson) packages.  
-Contribute soil palettes in the
-[issues](https://github.com/kaizadp/whistledown/issues/).
+------------------------------------------------------------------------
 
-</summary>
+## See also
+
+Check out my other projects:
+
+- [`soilpalettes` package](https://github.com/kaizadp/soilpalettes)
+- [Moira Rose Quote Generator](https://kaizadp.shinyapps.io/moirarose/)
+
+------------------------------------------------------------------------
+
+Last Updated 2026-02-10
