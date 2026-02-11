@@ -1,9 +1,7 @@
 
-<img align="left" height = "350" width = "350" src="images/0-logo.png">
-
 <br>
 
-# whistledown
+# whistledown <img align="left" height = "350" width = "350" src="images/0-logo.png">
 
 Dearest Reader,
 
